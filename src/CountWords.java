@@ -16,7 +16,7 @@ public class CountWords {
             System.out.println(e.getMessage());
         }
         HashSet<String> wordsCount = new HashSet<>();
-                for (String word: words) {
+        for (String word: words) {
             int count = 0;
             for (int i = 0; i < words.size(); i++) {
                 if (word.equals(words.get(i))) {

@@ -6,7 +6,7 @@ import java.util.*;
 public class PhoneList {
     public static void main(String[] args) {
         ArrayList<String> phones = new ArrayList<>();
-        try (FileReader file = new FileReader(".\\files\\file.txt")) {
+        try (FileReader file = new FileReader(".\\files\\file1.txt")) {
                 Scanner scanner = new Scanner(file);
                 while (scanner.hasNextLine()) {
                     phones.add(scanner.nextLine());
